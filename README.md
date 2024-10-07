@@ -18,76 +18,76 @@ Discontinued: Development stopped due to an anti-cheat ban. The project was func
 ## Data example
 ```json
 {
-	"Map": "SnowpeakDay",
-	"GameStatus": "SpawnIn",
-	"RoundTimer": "02:59",
-	"VolkRoundWon": 3,
-	"MarsocRoundWon": 2,
-	"TotalRoundCount": 5,
-	"RoundWinner": "Volk",
-	"Teams": [
-		{
-			"Team": "Marsoc",
-			"Stats": {
-				"Heals": 1,
-				"Objectives": 0,
-				"Deaths": 11,
-				"Kills": 16
-			},
-			"Players": [
-				{
-				"Name": "HiddenForGit",
-				"State": "NotSpawned",
-				"Health": 0,
-				"Class": "Specialist",
-				"Stats": {
-					"Heals": 0,
-					"Objectives": 0,
-					"Deaths": 3,
-					"Kills": 1
-					}
-				},
-				...
-			]
-		},
-		{
-			"Team": "Volk",
-			"Stats": {
-				"Heals": 1,
-				"Objectives": 1,
-				"Deaths": 13,
-				"Kills": 11
-			},
-			"Players": [
-				{
-					"Name": "HiddenForGit",
-					"State": "Dead",
-					"Health": 0,
-					"Class": "Rifleman",
-					"Stats": {
-						"Heals": 0,
-						"Objectives": 0,
-						"Deaths": 1,
-						"Kills": 0
-					}
-				},
-				...
-			]
-		}
-	],
-	"LastKill": {
-		"Killer": {
-			"Name": "HiddenForGit",
-			"Weapon": "AK5C",
-			"Team": "Marsoc"
-		},
-		"Victim": {
-			"Name": "HiddenForGit",
-			"Team": "Volk",
-			"BodyPart": "Head",
-			"DamageType": "Weapon"
-		}
-	}
+   "Map":"SnowpeakDay",
+   "GameStatus":"SpawnIn",
+   "RoundTimer":"02:59",
+   "VolkRoundWon":3,
+   "MarsocRoundWon":2,
+   "TotalRoundCount":5,
+   "RoundWinner":"Volk",
+   "Teams":[
+      {
+         "Team":"Marsoc",
+         "Stats":{
+            "Heals":1,
+            "Objectives":0,
+            "Deaths":11,
+            "Kills":16
+         },
+         "Players":[
+            {
+               "Name":"HiddenForGit",
+               "State":"NotSpawned",
+               "Health":0,
+               "Class":"Specialist",
+               "Stats":{
+                  "Heals":0,
+                  "Objectives":0,
+                  "Deaths":3,
+                  "Kills":1
+               }
+            },
+            "..."
+         ]
+      },
+      {
+         "Team":"Volk",
+         "Stats":{
+            "Heals":1,
+            "Objectives":1,
+            "Deaths":13,
+            "Kills":11
+         },
+         "Players":[
+            {
+               "Name":"HiddenForGit",
+               "State":"Dead",
+               "Health":0,
+               "Class":"Rifleman",
+               "Stats":{
+                  "Heals":0,
+                  "Objectives":0,
+                  "Deaths":1,
+                  "Kills":0
+               }
+            },
+            "..."
+         ]
+      }
+   ],
+   "LastKill":{
+      "Killer":{
+         "Name":"HiddenForGit",
+         "Weapon":"AK5C",
+         "Team":"Marsoc"
+      },
+      "Victim":{
+         "Name":"HiddenForGit",
+         "Team":"Volk",
+         "BodyPart":"Head",
+         "DamageType":"Weapon"
+      }
+   }
 }
 ```
 
